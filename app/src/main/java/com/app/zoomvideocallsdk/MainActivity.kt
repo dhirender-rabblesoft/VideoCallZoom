@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             if (username.length>0 && meetingid.length>0 && password.length>0){
                 startMeeting(username,password,meetingid,this)
             }else{
-                Toast.makeText(this,"Invalid Detias", Toast.LENGTH_LONG).show()
+                Toast.makeText(this,"Invalid Details", Toast.LENGTH_LONG).show()
             }
 
         }

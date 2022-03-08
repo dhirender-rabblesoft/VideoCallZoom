@@ -11,6 +11,7 @@
     <androidx.appcompat.widget.AppCompatEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="name"
         android:id="@+id/name"
         />
 
@@ -18,12 +19,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/pass"
+        android:hint="passowrd"
         />
 
     <androidx.appcompat.widget.AppCompatEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/meetingid"
+        android:hint="meetingid"
         />
 
     <Button

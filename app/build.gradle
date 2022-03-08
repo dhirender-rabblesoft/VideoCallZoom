@@ -40,6 +40,8 @@ dependencies {
 
     implementation fileTree(dir: 'C:\\Users\\Dell\\Downloads\\zoom-sdk-android-5.9.6.4777\\zoom-sdk-android-5.9.6.4777\\mobilertc-android-studio\\commonlib', include: ['*.aar', '*.jar'], exclude: [])
     implementation fileTree(dir: 'C:\\Users\\Dell\\Downloads\\zoom-sdk-android-5.9.6.4777\\zoom-sdk-android-5.9.6.4777\\mobilertc-android-studio\\mobilertc', include: ['*.aar', '*.jar'], exclude: [])
+    implementation project(path: ':mobilertc')
+    implementation project(path: ':commonlib')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
